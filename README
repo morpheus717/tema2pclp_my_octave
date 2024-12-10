@@ -1,0 +1,4 @@
+Am folosit o structura numita matrix in care retin pentru fiecare matrice continutul ei si numarul de linii, de coloane si suma tuturor elementelor. 
+Am declarat un pointer de acest tip pe care il vom folosi pentru a aloca dinamic un sir de astfel de structuri. Pentru a aloca spatiu matricei din interiorul structurii folosim functia allocate_matrix doar cand este cazul.
+In main, atata timp cat pot citi un caracter, in cazul in care se potriveste cu vreunul din comenzile prevazute in enunt, apelam functia corespunzatoare fiecarei comenzi.
+In plus, avem functii precum swap care interschimba doua variabile si supermegaswap care interschimba doua structuri de tip matrix pt a manipula datele mai usor.
